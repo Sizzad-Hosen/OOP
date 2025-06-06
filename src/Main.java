@@ -32,10 +32,10 @@ class Pen {
 }
 
 class Student {
-    private String name;    // Made private
-    private String id;      // Changed "Id" to "id" (Java naming convention)
-    private String age;     // Made private
-    private String address; // Changed "Address" to "address" (Java naming convention)
+    private String name;
+    private String id;
+    private String age;
+    private String address;
 
     // Constructor for Student
     public Student(String name, String id, String age, String address) {
@@ -87,6 +87,19 @@ class Student {
 }
 
 //inheritance
+
+class Animal {  // Parent
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {  // Child
+    void bark() {
+        System.out.println("Woof!");
+    }
+}
+
 
 //singel inheritance
 class Shape{
